@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>G4_58</class>
+ <widget class="QWidget" name="G4_58">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>G4_58</string>
+  </property>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>502</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>教师代课/提高工资</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>228</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>张三</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>232</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>姓名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>406</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string> 所得税：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>276</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ID号:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="money_1">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>356</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ti_shi">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>720</y>
+     <width>311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tax_1">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>402</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>教  师  信  息</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>781</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'幼圆'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft YaHei UI'; font-size:9pt;&quot;&gt;题目：&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;4-58 &lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;要求满足以下要求：&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Wingdings'; font-size:10pt;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10pt;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;定义一个&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Teacher&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;类，该类有以下成员变量：教师姓名、&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;号、基本工资、奖金、所得税和实际发放数。还有以下成员函数：两个构造函数，一个用于只初始化教师姓名和&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;号，一个用于初始化教师姓名、&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;号、基本工资、奖金与所得税；一个输入基本工资、奖金和所得税的函数；一个计算实际发放数的函数；一个输出教师信息的函数。编写主函数，调用第一个构造函数声明一个教师对象并输入其工资，再调用第二个构造函数声明一个教师对象。最后分别计&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt; color:#ff0000;&quot;&gt;算两个教师的实际发放数&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;，并在屏幕输出。&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Wingdings'; font-size:10pt;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10pt;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;为类&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Teacher&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;添加两个同名的成员函数&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Add()&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;，一个函数用于将其他教师的工资加到该教师中&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;如该教师替其他教师代课&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;，一个函数用于将一个数值加到该教师中&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;如提高该教师的工资&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-family:'宋体'; font-size:10pt;&quot;&gt;。在主函数中编写代码验证所完成的功能。&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>272</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1122334455</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QListView" name="xian_shi">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>581</width>
+     <height>521</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tian_jia">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>151</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>录 入 教  师 A</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="base_1">
+   <property name="geometry">
+    <rect>
+     <x>109</x>
+     <y>316</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>360</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string> 奖 金 :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>基本工资:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="MOMO">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>537</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>教师代课</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>提高工资</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="MOMO_M">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>540</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>模式：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="AA_L">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>580</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>  A ：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="AA_X">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>577</y>
+     <width>91</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BB_L">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>620</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>  B ：你猜</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ti_shi_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>690</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>（ A 替 B 代 课 ）</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tian_jia_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>720</y>
+     <width>151</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>更    新</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="MOMO_M_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>660</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>A加工资：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="jia_money">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>655</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>tian_jia</sender>
+   <signal>clicked()</signal>
+   <receiver>G4_58</receiver>
+   <slot>lu_ru()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>454</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tian_jia_2</sender>
+   <signal>clicked()</signal>
+   <receiver>G4_58</receiver>
+   <slot>geng_xin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>168</x>
+     <y>692</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>686</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MOMO</sender>
+   <signal>activated(int)</signal>
+   <receiver>G4_58</receiver>
+   <slot>mo_kuai()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>553</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AA_X</sender>
+   <signal>activated(int)</signal>
+   <receiver>G4_58</receiver>
+   <slot>A_nnn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>587</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>587</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>lu_ru()</slot>
+  <slot>geng_xin()</slot>
+  <slot>mo_kuai()</slot>
+  <slot>A_nnn()</slot>
+ </slots>
+</ui>
